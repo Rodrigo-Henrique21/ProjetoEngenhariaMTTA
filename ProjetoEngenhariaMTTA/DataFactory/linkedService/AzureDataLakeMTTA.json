@@ -1,0 +1,19 @@
+{
+	"name": "AzureDataLakeMTTA",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://datalakegin2.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVaultMTTA",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "DataLakeKey",
+				"secretVersion": "d96ec121255746ebbbaa98b6449c1efc"
+			}
+		}
+	}
+}
