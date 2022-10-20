@@ -1,0 +1,22 @@
+{
+	"name": "ParquetSilver",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeMTTA",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Destino"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "silver"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"name": "AzureSqlTableGold",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseMTTA",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"TbName": {
+				"type": "string"
+			},
+			"Schema": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "Origem"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().Schema",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().TbName",
+				"type": "Expression"
+			}
+		}
+	}
+}
