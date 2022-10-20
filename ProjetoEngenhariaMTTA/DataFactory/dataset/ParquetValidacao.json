@@ -1,0 +1,22 @@
+{
+	"name": "ParquetValidacao",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeMTTA",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Valida"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "silver"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
