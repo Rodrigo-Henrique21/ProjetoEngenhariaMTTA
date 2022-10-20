@@ -14,7 +14,7 @@
 			}
 		},
 		"folder": {
-			"name": "Origem"
+			"name": "Destino"
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
