@@ -1,0 +1,9 @@
+{
+	"name": "dfingestaomtta",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "954b16df-6d1e-4b43-8740-0f84cf5e1680",
+		"tenantId": "f2101012-6a4e-411e-88bc-62ea0d209dab"
+	}
+}
