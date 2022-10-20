@@ -85,6 +85,11 @@
 				}
 			}
 		],
+		"variables": {
+			"schemadb": {
+				"type": "String"
+			}
+		},
 		"folder": {
 			"name": "CheckFileExist"
 		},

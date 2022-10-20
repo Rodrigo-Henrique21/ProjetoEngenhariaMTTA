@@ -69,7 +69,13 @@
 							"inputs": [
 								{
 									"referenceName": "ParquetSilver",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"FileName": {
+											"value": "@item().name",
+											"type": "Expression"
+										}
+									}
 								}
 							],
 							"outputs": [
